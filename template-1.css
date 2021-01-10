@@ -1,0 +1,74 @@
+/*
+Use your custom theme:
+Select "Custom" theme in the dashboard
+On your https://poll.ma.pe/overlay/<id>/ URL add ?customCss=https://example.com/style.css
+
+Please keep the link to https://poll.ma.pe visible for a short period of time.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+/*
+* "custom" refers to the theme assigned to the poll element
+*/
+.custom {
+	background: #000;
+	width: 400px;
+	transition: opacity 1s;
+	padding: 10px;
+
+	font-family: 'Ubuntu', sans-serif;
+
+	/* // Hide when not active */
+	opacity: 0;
+}
+
+.custom li.question,
+.custom li.help,
+.custom div.metaInfo,
+.custom .border,
+.custom .option .number {
+  display: none;
+}
+
+.custom .options {
+  height: 75px;
+  width: 400px;
+  border-radius: 50px;
+  border: 2px solid white;
+  list-style: none;
+  display: flex;
+  flex-direction: 'row';
+}
+
+.custom .option {
+  position: relative;
+  color: white;
+  width: 50%;
+  margin-left: -10px;
+}
+
+.custom .option * {
+  position: absolute;
+}
+.custom .option .text,
+.custom .option .procent {
+  z-index: 3;
+}
+.custom .option .text {
+  top: calc(100% + 5px);
+}
+
+.custom .option .procent {
+  top: 40%
+}
+
+.custom .option:nth-child(2) .text,
+.custom .option:nth-child(2) .procent {
+  right: 10px;
+}
+
+.custom .option .bar {
+  height: 100%;
+  background-color: #0CD3FF;
+}

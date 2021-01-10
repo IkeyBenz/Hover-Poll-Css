@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+body {
+  background-color: navy;
+  font-family: 'Ubuntu', sans-serif;
+}
+.options {
+  height: 75px;
+  width: 400px;
+  border-radius: 50px;
+  border: 2px solid white;
+  list-style: none;
+  display: flex;
+  flex-direction: 'row';
+  /* align-items: center; */
+}
+
+.option {
+  position: relative;
+  color: white;
+  width: 50%;
+  /* background-color: red; */
+  margin-left: -10px;
+}
+
+.option * {
+  position: absolute;
+}
+.option .text, .option .procent {
+  z-index: 3;
+}
+.option .text {
+  top: calc(100% + 5px);
+}
+
+.option .procent {
+  top: 40%
+}
+
+.option:nth-child(2) .text, .option:nth-child(2) .procent {
+  right: 10px;
+}
+
+.option .bar {
+  height: 100%;
+  background-color: #0CD3FF;
+}
+
+.option:nth-child(1) .bar {
+  width: 20%;
+  right: 0px;
+}
+.option:nth-child(2) .bar {
+  width: 80%;
+}
+
+/* .option:nth-child(1) .bar {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.option:nth-child(2) .bar {
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+} */
