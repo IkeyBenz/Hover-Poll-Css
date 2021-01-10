@@ -26,6 +26,7 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 .custom li.question,
 .custom li.help,
 .custom div.metaInfo,
+.custom .border,
 .custom .option .number {
   display: none;
 }
