@@ -202,6 +202,8 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 	right: 20px;
 }
 
-li.question, li.help, div.metaInfo {
+.custom li.question,
+.custom li.help,
+.custom div.metaInfo {
   display: none;
 }
