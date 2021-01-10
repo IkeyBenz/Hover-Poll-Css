@@ -135,7 +135,8 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 * Optional outer border
 */
 .custom .border {
-	border: 5px solid red;
+  border: 2px solid white;
+  border-radius: 50%;
 }
 
 
