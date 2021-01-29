@@ -28,9 +28,10 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 }
 
 .custom .metaInfo {
-	background: green;
+	/* background: green;
 	overflow: hidden;
-	padding: 0 10px;
+	padding: 0 10px; */
+	display: none;
 }
 .custom .total, .custom .duration {
 	background: #444;
