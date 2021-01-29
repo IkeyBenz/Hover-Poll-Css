@@ -95,7 +95,6 @@ body * {
 	padding-left: 55px; */
 	font-size: 15px;
 	width: 50%;
-	border: 1px solid red;
 }
 .custom .options li.question {
 	/* padding: 10px 20px;
@@ -128,6 +127,7 @@ body * {
 	position: absolute;
 	top: 5px;
 	left: 10px;
+	display: none;
 }
 .custom .options li .bar {
 	background: #444;
