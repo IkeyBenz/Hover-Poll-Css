@@ -6,7 +6,7 @@ On your https://poll.ma.pe/overlay/<id>/ URL add ?customCss=https://example.com/
 Please keep the link to https://poll.ma.pe visible for a short period of time.
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
 
 /*
 * "custom" refers to the theme assigned to the poll element
