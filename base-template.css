@@ -12,7 +12,9 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 * "custom" refers to the theme assigned to the poll element
 */
 .custom {
-	background: #181A28;
+	/* background: #181A28; */
+	background-image: url('./linktree-BG.jpg');
+	background-size: cover;
 	width: 400px;
 	transition: opacity 1s;
 	padding: 10px;
