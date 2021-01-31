@@ -17,8 +17,8 @@ body * {
 
 .custom {
 	/* background: #181A28; */
-	background-image: url('./linktree-BG.jpg');
-	background-size: cover;
+	/* background-image: url('./linktree-BG.jpg');
+	background-size: cover; */
 	width: 420px;
 	transition: opacity 1s;
 	padding: 32px 24px 48px 24px;
