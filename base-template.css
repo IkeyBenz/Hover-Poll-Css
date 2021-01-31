@@ -13,6 +13,8 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 */
 body * {
 	box-sizing: border-box;
+	text-shadow: 1px 1px #181A28;
+	background: transparent;
 }
 
 .custom {
