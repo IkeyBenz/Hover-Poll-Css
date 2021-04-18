@@ -174,12 +174,11 @@ body * {
 	text-indent: -9999px;
 	display: block;
 	z-index: 20000;
-	background-image: url('./rocket_ship.png');
-	width: 200px;
-	height: 90px;
+	background-image: url('./middlee.png');
+	width: 100px;
+	height: 80px;
 	position: absolute;
-	left: 159px;
-	top: -20px;
+	left: 140px;
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -192,8 +191,7 @@ body * {
 }
 
 .custom .options li .bar .bar-inner {
-	/* background: #0CD3FF; */
-	background: #e3b931;
+	background: #0CD3FF;
 	height: 100%;
 	width: 0;
 	transition: width 1s;
